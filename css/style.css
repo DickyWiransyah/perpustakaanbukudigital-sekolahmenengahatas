@@ -26,8 +26,9 @@ body {
 .tombol {
   border-radius: 40px;
   margin-right: 100px;
-  margin-left: 350px;
+  margin-left: 180px;
   color: white;
+  font-weight: 600;
 }
 
 .tombol:hover {
@@ -68,7 +69,8 @@ section {
   margin-left: 70px;
 }
 .nav-link {
-  color: #000 !important;
+  color: #fff !important;
+  font-weight: 600;
 }
 .nav-link {
   margin-right: 100px;
@@ -76,10 +78,11 @@ section {
 }
 
 .nav-link:hover {
-  color: #fff !important;
-  background: #0071b8;
+  color: #094962 !important;
+  background: #f0f1f3;
   border-radius: 0.5rem;
   padding: 0.5rem 1.5rem;
+  font-weight: 600;
 }
 
 /* Bagian List Buku */
@@ -100,48 +103,45 @@ section {
 /* Akhir Navbar */
 
 /* Jumbotron */
-#particles-js {
+.jumbotron {
   background-image: url(../img/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 850px;
   margin-top: -180px;
-}
-
-.jumbotron h1 {
-  position: absolute;
-  color: #0071b8;
-  padding-top: 340px;
-  margin-left: -50px;
-  font-size: 90px;
-  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
+.jumbotron h1 {
+  color: #fff;
+  padding-top: 250px;
+  margin-left: 50px;
+  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
 .jumbotron p {
-  position: absolute;
-  color: #00415c;
-  margin-left: -1px;
-  padding-top: 550px;
+  color: #d85c78;
+  margin-left: 50px;
   font-size: 25px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .tombol1 {
-  position: absolute;
-  margin-left: 50px;
-  margin-top: 600px;
+  margin-left: 30px;
   border-radius: 40px;
   color: #fff;
   padding: 0.3rem 2rem;
   font-size: 20px;
-  background: var(--blue);
+  background: #c2526c;
   cursor: pointer;
   font-weight: 500;
 }
 
 .tombol1:hover {
-  background: #0160bc;
+  background: #d85c78;
   color: #fff;
 }
 
